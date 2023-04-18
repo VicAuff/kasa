@@ -1,7 +1,7 @@
 ![Logo de l'application KASA](https://github.com/VicAuff/kasa/blob/main/public/logo192.png)
 
 
-# Septième projet OpenClassrooms --- React.js
+# Septième projet etudiant OpenClassrooms --- React.js
 
 Accessible en ligne, en cliquant sur le lien ----> [Kasa App web](https://vicauff.github.io/kasa/).
 
@@ -9,7 +9,7 @@ Accessible en ligne, en cliquant sur le lien ----> [Kasa App web](https://vicauf
 
 Pages 404 pour présentation, puis navigation à votre convenance sur l'application web.
 
-# KASA App (MVP)
+## KASA App (MVP)
 
 [![version](https://img.shields.io/badge/version-1.0.0-red)](CHANGELOG.md)
 
@@ -54,10 +54,10 @@ ou
 yarn start
 ```
 
-5. L'application sera accessible à l'adresse http://localhost:3000 sur votre navigateur.
+4. L'application sera accessible à l'adresse http://localhost:3000 sur votre navigateur.
 
 ## 📚 Documentation
-La documentation se trouve au sein des fichiers du code source
+La documentation se trouve au sein des fichiers du code source.
 
 ## Projet effectué dans le cadre de la formation Developpeur web :
 
