@@ -1,0 +1,106 @@
+/* ----- ⚙️ Zone du parfait P'TI gas de la maintenance UI 🔨 ---- */
+/* --------------------------------------------------------------- */
+
+:root {
+  --gallery-container-bg-color: #f7f7f7;
+  --card-width: 340px;
+  --card-height: 340px;
+  --card-margin: 30px;
+  --card-border-radius: 10px;
+  --card-shadow: 0px 2px 10px rgba(0, 0, 0, 0.25);
+  --card-img-transform-duration: 0.2s;
+  --card-title-font-family: "Montserrat", sans-serif;
+  --card-title-font-size: 18px;
+  --card-title-height: 52px;
+}
+
+/* -------------------------------- */
+/* ----- Styles HomeGallery.js ----- */
+/* -------------------------------- */
+
+.GalleryContainer {
+  width: 100%;
+  max-width: 1240px;
+  height: auto;
+  margin: 37px auto;
+  border-radius: 25px;
+  background-color: var(--gallery-container-bg-color);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.Card {
+  position: relative;
+  width: var(--card-width);
+  height: var(--card-height);
+  margin: var(--card-margin);
+  border-radius: var(--card-border-radius);
+  overflow: hidden;
+  z-index: 1;
+  cursor: pointer;
+  box-shadow: var(--card-shadow);
+}
+
+.Card img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform var(--card-img-transform-duration) ease-in-out;
+}
+
+.Card:hover img {
+  transform: scale(1.05);
+  transform-origin: center;
+}
+
+.Card::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  transition: box-shadow 0.3s ease-in-out;
+  object-fit: cover;
+  border-radius: var(--card-border-radius);
+  box-sizing: border-box;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.5);
+  z-index: -1;
+}
+
+/* Effet d'ombre au survol des cartes */
+.Card:hover::before {
+  box-shadow: 0px 10px 60px rgba(0, 0, 0, 0.8);
+  transition: box-shadow 0.8s ease-in-out;
+}
+
+.CardTitle {
+  position: absolute;
+  width: 300px;
+  height: var(--card-title-height);
+  bottom: 20px;
+  left: 20px;
+  display: flex;
+  align-items: flex-end;
+  font-family: var(--card-title-font-family);
+  font-style: normal;
+  font-weight: 500;
+  font-size: var(--card-title-font-size);
+  line-height: 142.6%;
+  color: #ffffff;
+}
+
+@media screen and (max-width: 768px) {
+  .GalleryContainer {
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+  }
+
+  .Card {
+    margin: 10px;
+  }
+}

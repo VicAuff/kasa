@@ -1,0 +1,93 @@
+/* ----- ⚙️ Zone du parfait P'TI gas de la maintenance UI 🔨 ---- */
+/* --------------------------------------------------------------- */
+
+:root {
+  --bg-color: #f7f7f7;
+  --title-bg-color: #ff6060;
+  --title-color: #f7f7f7;
+  --content-color: #ff6060;
+  --font-size-sm: clamp(12px, 2vw, 16px);
+  --font-size-md: clamp(13px, 2vw, 18px);
+  --padding: 10px 15px;
+  --transition: all 0.5s ease-in-out;
+  --gap-md: 30px;
+}
+
+/* -------------------------------- */
+/* ------- Styles About.js -------- */
+/* -------------------------------- */
+
+.Collapse {
+  background-color: #ffffff;
+  margin: 0 auto;
+  max-width: 1240px;
+  border-radius: 5px;
+  color: var(--content-color);
+}
+
+.CollapseTitle {
+  align-items: center;
+  background-color: var(--title-bg-color);
+  color: var(--title-color);
+  cursor: pointer;
+  display: flex;
+  font-size: var(--font-size-md);
+  justify-content: space-between;
+  padding: var(--padding);
+  margin: 0;
+}
+
+.AboutArrow {
+  transition: var(--transition);
+}
+
+.AboutArrowUp {
+  transform: rotate(0deg);
+}
+
+.AboutArrowDown {
+  transform: rotate(180deg);
+}
+
+.AboutCollapseContent {
+  background-color: var(--bg-color);
+  transition: var(--transition);
+  border-radius: 0 0 5px 5px;
+}
+
+.AboutCollapseContent.visible {
+  color: var(--content-color);
+  font-size: var(--font-size-sm);
+  letter-spacing: 1px;
+  opacity: 1;
+  gap: 0;
+  overflow: hidden;
+  padding: var(--padding);
+}
+
+.AboutCollapseContent.hidden {
+  opacity: 0;
+  height: 0;
+  overflow: hidden;
+  visibility: hidden;
+  padding: 0;
+}
+
+.AboutCollapse {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin: 30px auto;
+  gap: var(--gap-md);
+  width: 95%;
+}
+
+.AboutCollapseItem {
+  width: 50%;
+}
+
+@media screen and (max-width: 650px) {
+  .AboutCollapseItem {
+    width: 335px;
+  }
+}

@@ -1,0 +1,72 @@
+/* ----- ⚙️ Zone du parfait P'TI gas de la maintenance UI 🔨 ---- */
+/* --------------------------------------------------------------- */
+
+:root {
+  --app-min-height: 100vh;
+  --footer-height: 209px;
+  --footer-background-color: #000000;
+  --footer-logo-position: absolute;
+  --footer-text-font-family: "Montserrat";
+  --footer-text-font-weight: 500;
+  --footer-text-font-size: 24px;
+  --footer-text-line-height: 142.6%;
+  --footer-text-color: #ffffff;
+}
+
+/* -------------------------------- */
+/* ------- Styles Footer.js ------- */
+/* -------------------------------- */
+
+.App {
+  min-height: var(--app-min-height);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: auto;
+}
+
+.Footer {
+  position: sticky;
+  width: 100%;
+  height: var(--footer-height);
+  background: var(--footer-background-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  bottom: 0;
+  top: 100%;
+}
+
+.FooterLogo {
+  position: var(--footer-logo-position);
+  left: 50%;
+  top: 32%;
+  transform: translate(-50%, -32%);
+}
+
+.FooterText {
+  position: var(--footer-logo-position);
+  left: 50%;
+  top: 64%;
+  transform: translate(-50%, -64%);
+  font-family: var(--footer-text-font-family);
+  font-weight: var(--footer-text-font-weight);
+  font-size: var(--footer-text-font-size);
+  line-height: var(--footer-text-line-height);
+  display: flex;
+  align-items: flex-end;
+  text-align: center;
+  color: var(--footer-text-color);
+}
+
+@media screen and (max-width: 768px) {
+  .FooterText {
+    position: absolute;
+    transform: translate(-50%, -105%);
+    font-size: 12px;
+    line-height: var(--footer-text-line-height);
+    width: 195px;
+    height: 46px;
+  }
+}

@@ -1,0 +1,61 @@
+/* ----- ⚙️ Zone du parfait P'TI gas de la maintenance UI 🔨 ---- */
+/* --------------------------------------------------------------- */
+
+:root {
+  --error-font-family: "Montserrat", sans-serif;
+  --error-color: #ff6060;
+  --not-found-number-font-size: 288px;
+  --not-found-reason-font-size: 36px;
+  --not-found-return-font-size: 18px;
+}
+
+/* -------------------------------- */
+/* -------- Styles Error.js ------- */
+/* -------------------------------- */
+
+.Error {
+  font-family: var(--error-font-family);
+  color: var(--error-color);
+  margin-top: 250px;
+}
+
+.NotFoundNumber {
+  font-style: normal;
+  font-size: var(--not-found-number-font-size);
+  text-align: center;
+  margin: auto;
+}
+
+.NotFoundReason {
+  font-style: normal;
+  font-size: var(--not-found-reason-font-size);
+  text-align: center;
+  color: var(--error-color);
+  margin: 0 10px;
+}
+
+.NotFoundReturn {
+  font-weight: 500;
+  font-size: var(--not-found-return-font-size);
+  text-align: center;
+  padding: 120px 0 150px;
+}
+
+.NotFoundReturn a {
+  color: var(--error-color);
+}
+
+@media screen and (max-width: 768px) {
+  .NotFoundNumber {
+    font-size: 96px;
+  }
+
+  .NotFoundReason {
+    font-size: 18px;
+  }
+
+  .NotFoundReturn {
+    font-size: 14px;
+  }
+}
+

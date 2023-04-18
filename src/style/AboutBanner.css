@@ -1,0 +1,46 @@
+/* ----- ⚙️ Zone du parfait P'TI gas de la maintenance UI 🔨 ---- */
+/* --------------------------------------------------------------- */
+
+:root {
+  --banner-width: 100%;
+  --banner-height: 223px;
+  --banner-max-width: 1240px;
+  --banner-margin: 171px auto 0;
+  --banner-border-radius: 25px;
+  --banner-box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.5);
+}
+
+/* --------------------------------- */
+/* ----- Styles AboutBanner.js ----- */
+/* --------------------------------- */
+
+.AboutBanner {
+  position: relative;
+  width: var(--banner-width);
+  height: var(--banner-height);
+  max-width: var(--banner-max-width);
+  margin: var(--banner-margin);
+  border-radius: var(--banner-border-radius);
+  box-shadow: var(--banner-box-shadow);
+}
+
+.AboutBannerPicture {
+  width: var(--banner-width);
+  height: var(--banner-height);
+  object-fit: cover;
+  border-radius: var(--banner-border-radius);
+}
+
+@media screen and (max-width: 650px) {
+  .AboutBanner {
+    width: var(--banner-width);
+    max-width: 335px;
+    margin: 90px auto 0;
+    border-radius: 10px;
+    box-shadow: var(--banner-box-shadow);
+  }
+
+  .AboutBannerPicture {
+    border-radius: 10px;
+  }
+}
