@@ -1,70 +1,67 @@
-# Getting Started with Create React App
+![Logo de l'application KASA](https://github.com/VicAuff/kasa/blob/main/public/logo192.png)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+# Septième projet OpenClassrooms --- React.js
 
-In the project directory, you can run:
+Accessible en ligne, en cliquant sur le lien ----> [Kasa App web](https://vicauff.github.io/kasa/).
 
-### `npm start`
+## Processus d'arrivée sur le site
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Pages 404 pour présentation, puis navigation à votre convenance sur l'application web.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+# KASA App (MVP)
 
-### `npm test`
+[![version](https://img.shields.io/badge/version-1.0.0-red)](CHANGELOG.md)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Kasa App est une application web moderne construite avec React, qui offre une expérience utilisateur rapide, fluide et réactive. Cette application est conçue pour faciliter la gestion de vos locations de logements, pour vos vacances ou deplacements professionnels.
 
-### `npm run build`
+## 🚀 Fonctionnalités principales
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- Interface utilisateur intuitive et réactive
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 📦 Dépendances
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Cette application utilise les dépendances suivantes :
 
-### `npm run eject`
+- [react-dom](https://www.npmjs.com/package/react-dom) : 18.2.0
+- [react-router-dom](https://www.npmjs.com/package/react-router-dom) : 6.10.0
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## 🛠️ Installation et configuration
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Pour installer et configurer l'application localement, suivez les étapes ci-dessous:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+1. Clonez ce dépôt sur votre machine locale:
+```bash
+git clone https://github.com/vicauff/kasa.git
+```
+2. Installez les dépendances du projet en utilisant npm ou yarn:
+```bash
+cd kasa
+```
+```bash
+npm install
+```
+ou
+```bash
+yarn install
+```
+3. Lancez l'application en mode développement:
+```bash
+npm start
+```
+ou
+```bash
+yarn start
+```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+5. L'application sera accessible à l'adresse http://localhost:3000 sur votre navigateur.
 
-## Learn More
+## 📚 Documentation
+La documentation se trouve au sein des fichiers du code source
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Projet effectué dans le cadre de la formation Developpeur web :
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+![Logo OCR](https://www.solutions-ressources-humaines.com/logo/51c0ba3cbf5680eoc_purple_.png)
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Merci à vous OCR !
