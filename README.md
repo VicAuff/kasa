@@ -1,7 +1,7 @@
 ![Logo de l'application KASA](https://github.com/VicAuff/kasa/blob/main/public/logo192.png)
 
 
-# Septième projet etudiant OpenClassrooms --- React.js
+# Septième projet OpenClassrooms --- React.js
 
 Accessible en ligne, en cliquant sur le lien ----> [Kasa App web](https://vicauff.github.io/kasa/).
 
@@ -63,5 +63,4 @@ La documentation se trouve au sein des fichiers du code source.
 
 ![Logo OCR](https://www.solutions-ressources-humaines.com/logo/51c0ba3cbf5680eoc_purple_.png)
 
-
-Merci à vous OCR !
+Merci à l'ensemble des acteurs OCR !
